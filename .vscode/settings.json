@@ -1,0 +1,4 @@
+{
+    "erlangLs.diagnostics.enabled": true,
+    "erlangLs.nodePath": "/opt/homebrew/bin"
+  }
