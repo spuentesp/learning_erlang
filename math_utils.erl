@@ -29,6 +29,8 @@ filter_odd(List) ->
 filter_prime(List) ->
     lists:filter(fun(X) -> is_prime(X) end, List).
 
+
 is_prime(2) -> true;
 is_prime(3) -> true;
+is_prime(N) when N < 2 -> false;
 is_prime(N) when N > 3 -> not lists:any(fun(X) -> N rem X == 0 end, lists:seq(2, trunc(math:sqrt(N)))).
