@@ -1,6 +1,6 @@
 # Learning Erlang
 
-Este proyecto es una guía para aprender Erlang.
+Este proyecto es un "playground" para aprender erlang.
 
 ## Requisitos
 
